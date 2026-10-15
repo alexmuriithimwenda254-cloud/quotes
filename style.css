@@ -1,0 +1,128 @@
+
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    color: white;
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+/* Header section */
+header {
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+    color: #ffd166;
+}
+
+header p {
+    color: #dddddd;
+    font-size: 16px;
+}
+
+/* Main container */
+.container {
+    width: 90%;
+    max-width: 650px;
+    margin: 45px auto;
+}
+
+/* Quote card */
+.quote-card {
+    background: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 35px 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Quotation mark */
+.quote-icon {
+    font-size: 75px;
+    color: #ffd166;
+    height: 70px;
+}
+
+/* Quote text */
+#quote {
+    font-size: 25px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+/* Author name */
+#author {
+    color: #ffd166;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+/* Buttons container */
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/* General button design */
+button {
+    background: #ffd166;
+    color: #172033;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    transform: translateY(-3px);
+    background: #ffb703;
+}
+
+/* Copy button */
+.copy-btn {
+    background: #ffffff;
+}
+
+.copy-btn:hover {
+    background: #dddddd;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: #cccccc;
+    margin: 30px 0;
+    font-size: 14px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    header h2 {
+        font-size: 25px;
+    }
+
+    #quote {
+        font-size: 21px;
+    }
+
+    .quote-card {
+        padding: 25px 15px;
+    }
+}
